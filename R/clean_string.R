@@ -41,7 +41,7 @@ clean_string <- function (string, case = c("snake", "lower_camel", "upper_camel"
     gsub("#", ".number_", .) %>%
     gsub("^[[:space:][:punct:]]+", "", .) %>%
     snakecase::to_any_case(case = case, sep_in = "\\.", transliterations = c("Latin-ASCII"),
-                           parsing_option = 4)
+                           parsing_option = 1)
 
   new_string
 }
