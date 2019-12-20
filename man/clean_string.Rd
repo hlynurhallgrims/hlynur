@@ -4,9 +4,11 @@
 \alias{clean_string}
 \title{Cleans character strings}
 \usage{
-clean_string(string, case = c("snake", "lower_camel", "upper_camel",
-  "screaming_snake", "lower_upper", "upper_lower", "all_caps", "small_camel",
-  "big_camel", "parsed", "mixed"))
+clean_string(
+  string,
+  case = c("snake", "lower_camel", "upper_camel", "screaming_snake", "lower_upper",
+    "upper_lower", "all_caps", "small_camel", "big_camel", "parsed", "mixed")
+)
 }
 \arguments{
 \item{string}{the input string.}
